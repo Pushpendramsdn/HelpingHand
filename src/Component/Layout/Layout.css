@@ -1,0 +1,8 @@
+.content{
+    margin-top: 16px;
+    overflow-y: scroll;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}

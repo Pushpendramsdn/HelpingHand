@@ -1,0 +1,22 @@
+.btnContainer{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.Button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Disabled{
+    background: #246bad;
+    opacity: 0.8;
+}
+.Enabled{
+    background-color: #00c8c8;
+}

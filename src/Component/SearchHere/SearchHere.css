@@ -1,0 +1,15 @@
+.componentTitle{
+    text-align: center;
+    /* color: #660000; */
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75em;
+    margin-top: 100px;
+}
+.componentSubTitle{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    /* color: #660000; */
+}

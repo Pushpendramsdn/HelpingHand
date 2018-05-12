@@ -1,0 +1,52 @@
+.searchBoxHolder{
+    /* background-color: #660000; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin: 45px 0 0 0;
+    border-bottom: 2px solid #ccc;
+}
+
+/* @media(max-width:568px){
+    .searchBoxHolder > div > input {
+        width: 275px;
+        margin: 0 90px;
+    }
+} */
+@media(max-width:320px){
+    .searchBoxHolder > div{
+        display: inline-block;
+    }
+    .searchBoxHolder > div > input {
+        width: 245px;
+    }
+    
+  }
+  @media only screen and (max-width: 380px) and (min-width: 321px){
+    .searchBoxHolder > div{
+        display: inline-block;
+    }
+    .searchBoxHolder > div > input {
+        width: 290px;
+    }
+  }
+  @media only screen and (max-width: 420px) and (min-width: 381px){
+    .searchBoxHolder > div{
+        display: inline-block;
+    }
+    .searchBoxHolder > div > input {
+        width: 340px;
+    }
+  }
+
+@media(min-width:568px){
+ 
+    .searchBoxHolder > div {
+        display: initial;
+    }
+    
+    .searchBoxHolder > div > input {
+        width: 60%;
+        margin: 0 90px;
+    }
+  }

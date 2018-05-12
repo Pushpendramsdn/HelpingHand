@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    /* left: 17px; */
+    height: 60px;
+    background-color: #f6f8f9;
+    display: none;
+}
+.container > div{
+    width: 27.19%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+@media(max-width:320px){
+    .container > div{
+        width: 26.19%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+  }
+.container > div > img{
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width:568px){
+    .container{
+        display: block;
+    }
+}

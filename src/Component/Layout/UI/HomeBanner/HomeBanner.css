@@ -1,0 +1,80 @@
+.container{
+
+    content: '';
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #246bad;
+    background: -moz-linear-gradient(top,#246bad 0,#00c8c8 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#246bad),color-stop(100%,#00c8c8));
+    background: -webkit-linear-gradient(top,#246bad 0,#00c8c8 100%);
+    background: -o-linear-gradient(top,#246bad 0,#00c8c8 100%);
+    background: -ms-linear-gradient(top,#246bad 0,#00c8c8 100%);
+    background: linear-gradient(to bottom,#246bad 0,#00c8c8 100%);
+    opacity: 1;
+    z-index: 5000;
+		}
+.logoImage{
+			width: 200px;
+			height: 200px;
+			position: fixed;
+   			 top: 200px;
+    		left: 70px;
+    		animation: floatText 2s;
+		}
+
+		@-webkit-keyframes floatText{
+  	0%   {left: -600px;}
+    100% {left: 70px;}
+}
+@media(max-width:320px){
+  .logoImage{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+        top: 180px;
+      left: 60px;
+      animation: floatText 2s;
+  }
+
+  @-webkit-keyframes floatText{
+  0%   {left: -600px;}
+  100% {left: 60px;}
+}
+}
+
+@media only screen and (max-width: 380px) and (min-width: 321px){
+  .logoImage{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+        top: 220px;
+      left: 65px;
+      animation: floatText 2s;
+  }
+
+  @-webkit-keyframes floatText{
+  0%   {left: -600px;}
+  100% {left: 65px;}
+}
+}
+@media only screen and (max-width: 420px) and (min-width: 381px){
+  .logoImage{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+        top: 310px;
+      left: 95px;
+      animation: floatText 2s;
+  }
+
+  @-webkit-keyframes floatText{
+  0%   {left: -600px;}
+  100% {left: 95px;}
+}
+}
+
+  
